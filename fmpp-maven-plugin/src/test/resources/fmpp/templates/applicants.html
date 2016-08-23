@@ -1,0 +1,6 @@
+<#list applicants as applicant>
+  ${applicant.name} (age: ${applicant.age})
+  <#list applicant.skills as skill>
+    - ${skill}
+  </#list>
+</#list>

@@ -4,7 +4,7 @@
 
 	<groupId>com.github.earchitecture.maven.plugins</groupId>
 	<artifactId>fmpp-maven-plugin</artifactId>
-	<version>1.0.0</version>
+	<version>0.0.1</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>fmpp-maven-plugin-a Maven Plugin</name>
@@ -78,32 +78,6 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-source-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-sources</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -173,33 +147,5 @@
 			</build>
 		</profile>
 	</profiles>
-	<licenses>
-		<license>
-			<name>MIT License</name>
-			<url>http://www.opensource.org/licenses/mit-license.php</url>
-		</license>
-	</licenses>
-	<developers>
-		<developer>
-			<name>Cleber Barcelos</name>
-			<email>barcelos.cbc@gmail.com</email>
-			<organization>EArchitecture</organization>
-			<organizationUrl>https://github.com/EArchitecture</organizationUrl>
-		</developer>
-	</developers>
 	<description>Baseado na implementação FMPP - FreeMarker-based file PreProcessor, de forma atomatizada a geração de codigo.</description>
-	<organization>
-		<url>https://github.com/EArchitecture</url>
-		<name>EArchitecture</name>
-	</organization>
-	<scm>
-		<connection>scm:git:git://github.com/EArchitecture/fmpp-maven-plugin.git</connection>
-		<developerConnection>scm:git:ssh://github.com/EArchitecture/fmpp-maven-plugin.git</developerConnection>
-		<url>https://github.com/EArchitecture/fmpp-maven-plugin/tree/master</url>
-		<tag>1.0.0</tag>
-	</scm>
-	<issueManagement>
-		<url>https://github.com/EArchitecture/fmpp-maven-plugin/issues</url>
-		<system>GitHub Issue Manager</system>
-	</issueManagement>
 </project>

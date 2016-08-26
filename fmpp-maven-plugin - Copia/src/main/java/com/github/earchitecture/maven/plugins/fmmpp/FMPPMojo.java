@@ -21,13 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  ******************************************************************************/
-package br.com.earchitecture.fmmpp;
+package com.github.earchitecture.maven.plugins.fmmpp;
 
 /**
  * This is a Maven Plugin front end for the FMPP. The plugin provides functionality for generating
  * code, test code, resources and test resources for a maven project. 
  * 
  * @author Faisal Feroz
+ * @author Cleber Barcelos Costa
  */
 import java.io.File;
 

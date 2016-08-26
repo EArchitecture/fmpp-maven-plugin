@@ -1,4 +1,4 @@
-package br.com.earchitecture.fmmpp;
+package com.github.earchitecture.maven.plugins.fmmpp;
 
 import java.io.File;
 import java.util.Arrays;

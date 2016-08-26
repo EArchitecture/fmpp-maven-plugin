@@ -1,0 +1,4 @@
+data: {
+	flowers: csv(data/testData.csv, {separator:','}),
+	applicants: json(data/applicants.json, UTF-8)
+}
